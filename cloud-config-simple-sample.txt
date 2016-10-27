@@ -4,7 +4,7 @@
 apt_update: true
 #apt_upgrade: true
 packages:
-- curl
+ - curl
  - unzip
 
 runcmd:
