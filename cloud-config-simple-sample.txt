@@ -1,0 +1,11 @@
+#cloud-config
+# the objective is to make sure the server is going to be patched and up to date.
+
+apt_update: true
+#apt_upgrade: true
+packages:
+- curl
+ - unzip
+
+runcmd:
+  - touch /tmp/cloudconfigdone
