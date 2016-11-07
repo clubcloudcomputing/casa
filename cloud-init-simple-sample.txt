@@ -5,6 +5,7 @@ apt_update: true
 apt_upgrade: true
 packages:
  - unzip
+ - curl
 
 runcmd:
   - touch /tmp/cloudinitdone
