@@ -1,4 +1,4 @@
-#cloud-init
+#cloud-config
 # the objective is to make sure the server is going to be patched and up to date.
 
 apt_update: true
@@ -9,3 +9,4 @@ packages:
 
 runcmd:
   - touch /tmp/cloudinitdone
+  
