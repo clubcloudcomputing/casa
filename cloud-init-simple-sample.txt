@@ -9,4 +9,5 @@ packages:
 
 runcmd:
   - touch /tmp/cloudinitdone
-  
+
+# report for duty (or reboot first)
